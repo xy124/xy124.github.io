@@ -1,0 +1,12 @@
+# Site settings
+title: tl;dr
+email: xy124@noreply.github.com
+#description: ""
+baseurl: ""
+url: "http://xy124.github.io"
+#twitter_username: 
+github_username:  xy124
+
+# Build settings
+markdown: kramdown
+permalink: pretty
