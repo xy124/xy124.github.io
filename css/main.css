@@ -17,10 +17,10 @@ body {
   color: #5d5d5d;
 }
 
-h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; color: #6f0000;}
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; color: #173f6a;}
 
 a         { color: #2a7ae2; text-decoration: none; }
-a:hover   { color: #3d003f; text-decoration: underline; }
+a:hover   { color: white; text-decoration: underline; }
 a:visited { color: #205caa; }
 
 /* Utility */
@@ -149,10 +149,19 @@ a:visited { color: #205caa; }
 
 .posts li { margin-bottom: 30px; }
 
-.posts .post-link {
+.posts .post-link, .posts .post-anchor-link {
   font-size: 24px;
   letter-spacing: -1px;
   line-height: 1;
+}
+
+.post-anchor-link {
+  color: #703636;
+}
+
+.post-link:hover, .post-anchor-link:hover {
+  color: white;
+  text-decoration: none;
 }
 
 .posts .post-date {
@@ -229,6 +238,11 @@ a:visited { color: #205caa; }
 
 .post-content ul,
 .post-content ol { padding-left: 20px; }
+
+.short-post {
+  background-color: #123;
+  padding: 8px 12px 30px 30px;
+}
 
 .post pre,
 .post code {
