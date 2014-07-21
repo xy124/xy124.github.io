@@ -14,4 +14,12 @@
 
   </article>
 
+  {% if post.refs %}
+    <div class="refs">
+      {% for ref in post.refs %}
+        <li><a href="{{ ref }}">{{ ref }}</a></li>
+      {% endfor %}
+    </div>
+  {% endif %}
+
 </div>
