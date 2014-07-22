@@ -152,6 +152,9 @@ a:visited { color: #205caa; }
   letter-spacing: -1px;
   line-height: 1;
 }
+div.post-link {
+  float: left;
+}
 
 .post-anchor-link {
   color: #703636;
@@ -162,13 +165,18 @@ a:visited { color: #205caa; }
   text-decoration: none;
 }
 
-.posts .post-date {
-  display: block;
+.post-date {
   font-size: 15px;
   color: #6aa000;
+  text-align: right;  
+}
+
+.posts .post-date {
+  display: block;
 }
 
 .posts li {
+  padding-bottom: 3px;
   margin-bottom: 20px;
   border-bottom: 1px white dashed;
 }
