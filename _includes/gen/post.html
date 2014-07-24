@@ -14,14 +14,22 @@
       {{content}}
     {% endif %}
 
-  </article>
 
-  {% if post.refs %}
-    <div class="refs">
-      {% for ref in post.refs %}
-        <li><a href="{{ ref }}">{{ ref }}</a></li>
-      {% endfor %}
-    </div>
+  {% if page.refs %}
+  <div class="refs-seperator"></div>
+    {% for ref in page.refs %}
+      <li class="refs"><a href="{{ ref }}">{{ ref }}</a></li>
+    {% endfor %}
+
+  {% else %}
+    {% if post.refs %}
+      <div class="refs-seperator"></div>
+        {% for ref in post.refs %}
+          <li class="refs"><a href="{{ ref }}">{{ ref }}</a></li>
+        {% endfor %}
+      {% endif %}
   {% endif %}
+
+  </article>
 
 </div>

@@ -168,7 +168,7 @@ div.post-link {
 .post-date {
   font-size: 15px;
   color: #6aa000;
-  text-align: right;  
+  text-align: right;
 }
 
 .posts .post-date {
@@ -179,6 +179,11 @@ div.post-link {
   padding-bottom: 3px;
   margin-bottom: 20px;
   border-bottom: 1px white dashed;
+}
+
+.posts hr {
+  width: 30%;
+  border-bottom: 0.5px dotted grey;
 }
 
 
@@ -202,7 +207,7 @@ div.post-link {
 
 .post-content { margin: 0 0 30px; }
 
-.post-content > * { margin: 20px 0; }
+.post-content > * { margin: 12px 0; }
 
 
 .post-content h1,
@@ -235,6 +240,10 @@ div.post-link {
 .post-content h4 {
   font-size: 20px;
   letter-spacing: -1px;
+}
+
+article.post-content {
+  margin-bottom: 60px;
 }
 
 .post-content blockquote {
@@ -441,13 +450,24 @@ div.post-link {
 }
 
 .refs {
-  border-top: 1px grey dotted;
   font-size: 10px;
-  margin-bottom: 30px;
   list-style-type: thai;
 }
 
-.refs li {
-  margin-bottom: 0px;
+li.refs {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
   border: none;
+}
+
+div.refs-seperator {
+  border-top: 1px dotted grey;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  width: 30%;
+}
+
+div.refs {
+  padding: 0px 30px 0px 0px;
+  margin: 0px 0px 0px 0px;
 }
