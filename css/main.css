@@ -155,6 +155,10 @@ a:visited { color: #205caa; }
 div.post-link {
   float: left;
 }
+div.post-heading-underlined {
+  border-bottom: 1px white dashed;
+  padding-bottom: 3px;
+}
 
 .post-anchor-link {
   color: #703636;
@@ -177,8 +181,7 @@ div.post-link {
 
 .posts li {
   padding-bottom: 3px;
-  margin-bottom: 20px;
-  border-bottom: 1px white dashed;
+  margin-bottom: 19px;
 }
 
 .posts hr {

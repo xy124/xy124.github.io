@@ -8,19 +8,21 @@ layout: default
 
   <ul class="posts">
     {% for post in site.posts %}
-      <li id="{{ post.title }}">
-        <div class="post-link">
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          &nbsp;<a class="post-anchor-link" href="#{{post.title}}">&para;</a></td>
+      <li id="{{ post.title | replace:' ','_' }}">
+        <div class="post-heading-underlined">
+          <div class="post-link">
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            &nbsp;<a class="post-anchor-link" href="#{{post.title | replace:' ','_'}}">&para;</a>
+          </div>
+          <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
         </div>
-        <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
+          {% if post.layout == "short_post" %}
+            {% include gen/short_post.html %}
+          {% else %}
+            {% include gen/post.html %}
+          {% endif %}
+        {% endfor %}
       </li>
-      {% if post.layout == "short_post" %}
-        {% include gen/short_post.html %}
-      {% else %}
-        {% include gen/post.html %}
-      {% endif %}
-    {% endfor %}
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>

@@ -1,12 +1,12 @@
 <div class="post">
-
+{% if post == null %}
   <header class="post-header">
     <div class="post-link"><h1>{{ page.title }}</h1></div>
     <div class="post-date">{{ page.date | date: "%b %-d, %Y" }}</div>
     <p class="meta">
       {% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
-
+{% endif %}
   <article class="post-content">
     {% if post.content %}
       {{post.content}}
@@ -14,20 +14,16 @@
       {{content}}
     {% endif %}
 
-
-  {% if page.refs %}
+  {% if page.refs or post.refs%}
   <div class="refs-seperator"></div>
+  <ul>
     {% for ref in page.refs %}
       <li class="refs"><a href="{{ ref }}">{{ ref }}</a></li>
     {% endfor %}
-
-  {% else %}
-    {% if post.refs %}
-      <div class="refs-seperator"></div>
-        {% for ref in post.refs %}
-          <li class="refs"><a href="{{ ref }}">{{ ref }}</a></li>
-        {% endfor %}
-      {% endif %}
+    {% for ref in post.refs %}
+      <li class="refs"><a href="{{ ref }}">{{ ref }}</a></li>
+    {% endfor %}
+  </ul>
   {% endif %}
 
   </article>
