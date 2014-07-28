@@ -1,10 +1,11 @@
 # Site settings
 title: tl;dr
+subtitle: concentrated like a poem
 email: xy124@noreply.github.com
 #description: ""
 baseurl: ""
 url: "http://xy124.github.io"
-#twitter_username: 
+#twitter_username:
 github_username:  xy124
 
 # Build settings
