@@ -46,18 +46,14 @@ Steps to perform for every new module
    Then `cd` in this folder.
  * create the gruntfile - choose one of the following:
 
-    * **simple gruntfile**:
-
-      ```
-      grunt-init gruntfile
-      ```
-
-
-    * **commonjs**:
-
-      ```
-      grunt-init commonjs
-      ```
+   * **simple gruntfile**:
+     ```
+     grunt-init gruntfile
+     ```
+   * **commonjs**:
+     ```
+     grunt-init commonjs
+     ```
 
  * now let's install all used `grunt-modules` and add them to `package.json` as
    development dependencies
