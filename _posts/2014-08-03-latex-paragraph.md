@@ -14,7 +14,7 @@ subsubsubsection environment, I spent hours in debugging the spacings of my
 So I redefined the command to just look like the \paragraph command but
 acting like a paragraph:
 
-`\renewcommand{\paragraph}[1]{\noindent\textbf{\textsf{#1}}\hspace{\parindent}}`
+`\renewcommand{\paragraph}[1]{\par\noindent\textbf{\textsf{#1}}\hspace{\parindent}}`
 
 Written at the beginning of a paragraph, this will insert a bold non-serif
 text in front of the indentation.
