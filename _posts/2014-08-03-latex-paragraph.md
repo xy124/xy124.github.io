@@ -9,9 +9,9 @@ refs:
 ---
 Since the LaTeX command `\paragraph{}` doesn't start a paragraph but a
 subsubsubsection environment, I spent hours in debugging the spacings of my
-\paragraphs.
+`\paragraph`s.
 
-So I redefined the command to just look like the \paragraph command but
+So I redefined the command to just look like the `\paragraph` command but
 acting like a paragraph:
 
 `\renewcommand{\paragraph}[1]{\par\noindent\textbf{\textsf{#1}}\hspace{\parindent}}`
