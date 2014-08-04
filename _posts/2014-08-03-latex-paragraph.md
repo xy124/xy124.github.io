@@ -7,6 +7,10 @@ tags: latex,paragraph
 refs:
   - http://stackoverflow.com/questions/3119814/using-parindent-and-parskip-with-paragraph-has-no-effect
 ---
+
+
+
+
 Since the LaTeX command `\paragraph{}` doesn't start a paragraph but a
 subsubsubsection environment, I spent hours in debugging the spacings of my
 `\paragraph`s.
