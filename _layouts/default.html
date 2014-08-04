@@ -4,7 +4,7 @@
   {% include head.html %}
 
     <body>
-    <script src="javascripts/easteregg.min.js"></script>
+    <script src="{{ "/javascripts/easteregg.min.js" | prepend: site.base-url }}"></script>
     {% include header.html %}
 
     <div class="page-content">
