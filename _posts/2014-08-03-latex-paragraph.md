@@ -1,6 +1,6 @@
 ---
 layout: short_post
-title: "Make LaTeX \paragraph behave like a paragraph"
+title: "Make LaTeX \\paragraph behave like a paragraph"
 description: ""
 category:
 tags: latex,paragraph
