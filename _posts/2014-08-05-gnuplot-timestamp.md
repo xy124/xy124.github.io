@@ -36,7 +36,7 @@ a2  = 1.92203500769925e-10
 f(x) = a0+a1*x+a2*x*x
 set xdata time
 set timefmt "%s"
-set format x "%s"
+set format x "%d.%m.%Y"
 
 plot "t-np.dat" u 1:2 pt 7 lc 0, f(x+946684800) ls 1
 ```
