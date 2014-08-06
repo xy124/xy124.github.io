@@ -21,7 +21,7 @@ refs:
 
 #Why?
 Your data is in unix timestamp, i.e. seconds since 1 Jan 1970 00:00:00. This
-is '''not''' the timestamp gnuplot uses, gnuplot uses seconds since 1 Jan 1970
+is '''not''' the timestamp gnuplot uses, gnuplot uses seconds since 1 Jan 2000
 00:00:00. So your data misses your fit by 30 years, or 946684800 seconds.
 
 #Solution
