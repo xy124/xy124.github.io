@@ -1,5 +1,5 @@
 ---
-layout: short_post
+layout: post
 title: "Steps to create js-modules"
 description: ""
 category:
