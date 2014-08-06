@@ -4,7 +4,7 @@ title: "Gnuplot timestamps and the 30 year offset"
 description: ""
 category:
 tags: latex,paragraph
-author: schaf
+author: drschaf
 refs:
   - http://stackoverflow.com/questions/7810352/plotting-date-time-data-points-and-functions-in-the-same-graph
 ---
@@ -41,7 +41,5 @@ set format x "%d.%m.%Y"
 
 plot "t-np.dat" u 1:2 pt 7 lc 0, f(x+946684800) ls 1
 ```
-
-(via schaf)
 
 [data]:http://nopaste.info/c414cacbd4.html
