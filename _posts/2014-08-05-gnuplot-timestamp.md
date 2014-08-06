@@ -4,6 +4,7 @@ title: "Gnuplot timestamps and the 30 year offset"
 description: ""
 category:
 tags: latex,paragraph
+author: schaf
 refs:
   - http://stackoverflow.com/questions/7810352/plotting-date-time-data-points-and-functions-in-the-same-graph
 ---
