@@ -13,8 +13,7 @@ refs:
 
 
 
-Steps to perform once
-=====================
+## Steps to perform once
  * install `npm`
  * install `grunt-cli`
 
@@ -40,8 +39,7 @@ Steps to perform once
 
 
 
-Steps to perform for every new module
-=====================================
+## Steps to perform for every new module
  * create a project-folder e.g. by cloning the new projects repo from [github][github].
    Then `cd` in this folder.
  * create the gruntfile - choose one of the following:
@@ -58,7 +56,7 @@ Steps to perform for every new module
  * now let's install all used `grunt-modules` and add them to `package.json` as
    development dependencies
 
-   (`--save-dev`)
+   ( `--save-dev` )
 
    ```
    npm install grunt --save-dev

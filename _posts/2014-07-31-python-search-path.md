@@ -10,9 +10,7 @@ refs:
 
 Assuming the `myLib.py` is in `/path/to/myLib/` one can either
 
-* `PYTHONPATH=$PYTHONPATH:/path/to/myLib`
-
-or
+* `PYTHONPATH=$PYTHONPATH:/path/to/myLib` or
 
 * create a `/lib/python/site-packages/myLib.pth` containing:
 
