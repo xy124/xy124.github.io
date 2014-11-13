@@ -178,10 +178,11 @@ div.post-heading-underlined {
 
 .post-date {
   font-size: 15px;
-  color: #6aa000;
+  color: #29FF00;
   text-align: right;
   position: relative;
   top: 6px;
+  z-index: -1;
 }
 
 .posts .post-date {
@@ -502,4 +503,8 @@ div.refs {
 	padding-right: 40px;
 	color: grey;
 	font-style: italic;
+}
+
+h2.footer-heading {
+	color: #00ff77;
 }
