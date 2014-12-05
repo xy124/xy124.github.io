@@ -64,7 +64,7 @@ refs:
 
 
 
-Now take a look in `package.json`, `Gruntfile.js` and `node_modules/`.
+Now take a look at `package.json`, `Gruntfile.js` and `node_modules/`.
 `package.json` stores information about the packages to install with `npm install` into `node_modules`.
 
 `Gruntfile.js` is read when typing `grunt`.
