@@ -9,10 +9,6 @@ refs:
   - http://gruntjs.com/project-scaffolding
   - https://www.npmjs.org/doc/cli/npm-install.html
 ---
-
-
-
-
 ## Steps to perform once
  * install `npm`
  * install `grunt-cli`
@@ -34,11 +30,11 @@ refs:
 
    ```
    git clone https://github.com/gruntjs/grunt-init-commonjs.git ~/.grunt-init/commonjs --depth 1
-   git clone https://github.com/gruntjs/grunt-init-gruntfile.git ~/.grunt-init/gruntfile --depth 1
    ```
 
-
-
+   ```
+   git clone https://github.com/gruntjs/grunt-init-gruntfile.git ~/.grunt-init/gruntfile --depth 1
+   ```
 ## Steps to perform for every new module
  * create a project-folder e.g. by cloning the new projects repo from [github][github].
    Then `cd` in this folder.
