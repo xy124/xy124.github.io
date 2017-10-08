@@ -30,9 +30,6 @@ refs:
 
    ```
    git clone https://github.com/gruntjs/grunt-init-commonjs.git ~/.grunt-init/commonjs --depth 1
-   ```
-
-   ```
    git clone https://github.com/gruntjs/grunt-init-gruntfile.git ~/.grunt-init/gruntfile --depth 1
    ```
 ## Steps to perform for every new module

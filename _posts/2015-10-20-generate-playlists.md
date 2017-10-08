@@ -12,25 +12,14 @@ __folder__ __player__ (e.g. Blackberry, Android standard player!?)
 execute in music dir:
 
 ```
-
-
 prepath="$(pwd)/"
-
 for sufpath in **/;
-
 do
-
         echo processing $sufpath
-
         cd "$prepath$sufpath"
-
         dirname=${PWD##*/}
-
         ls | grep -i ".*\.\(mp3\|ogg\|m4a\|wma\)\$" > "$dirname.m3u"
-
 done;
-
-
 ```
 
 

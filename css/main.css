@@ -18,6 +18,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; color: #173f6a;}
+h1 { color: #2a7ae2; }
 
 a         { color: #2a7ae2; text-decoration: none; }
 a:hover   { color: white; text-decoration: underline; }
@@ -295,7 +296,11 @@ article.post-content {
   -moz-border-radius: 3px;
   border-radius: 3px;
   font-size: 12px;
-  overflow:scroll;
+
+\* hide scrollbars if not needed, normally is default as well so we
+   could remove those lines */
+  overflow-x:auto;
+  overflow-y:auto;
   vertical-align: text-top;
 }
 
