@@ -11,7 +11,7 @@ __folder__ __player__ (e.g. Blackberry, Android standard player!?)
 
 execute in music dir:
 
-```
+```bash
 prepath="$(pwd)/"
 for sufpath in **/;
 do
