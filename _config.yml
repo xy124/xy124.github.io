@@ -7,6 +7,8 @@ baseurl: ""
 url: "http://xy124.github.io"
 #twitter_username:
 github_username:  xy124
+plugins:
+  - jekyll-feed
 
 # Build settings
 markdown: kramdown
