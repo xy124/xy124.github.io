@@ -1,6 +1,6 @@
 ---
 layout: short_post
-title: "flatten directory"
+title: "Flatten directory"
 description: ""
 category:
 tags: flatten,directory,bash,hard,link,present,pictures

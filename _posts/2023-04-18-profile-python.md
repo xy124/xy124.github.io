@@ -6,7 +6,7 @@ category:
 tags: python,profiling,realtime
 ---
 
-profiling python (e.g., `app.py`)
+Profiling Python apps (e.g., `app.py`)
 
 ```
 pip3 install cProfile

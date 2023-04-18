@@ -1,11 +1,11 @@
 ---
 layout: short_post
-title: latex continuous building
-description: "latex continuous building"
+title: LaTeX continuous building
+description: "LaTeX continuous building"
 category:
 tags: latex
 ---
-Working on latex documents while continuously rebuilding in the background on changes and
+Working on LaTeX documents while continuously rebuilding in the background on changes and
 displaying can be done using `latexmk`:
 
 ```bash

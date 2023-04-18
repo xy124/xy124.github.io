@@ -1,7 +1,7 @@
 ---
 layout: short_post
-title: generic setenv
-description: "useful snippet to set PATH, LD_LIBRARY_PATH ..."
+title: Generic setenv
+description: "Useful snippet to set PATH, LD_LIBRARY_PATH ..."
 category:
 tags: configure make cmake
 ---

@@ -1,6 +1,6 @@
 ---
 layout: short_post
-title: inspect binary files
+title: Inspect binary files
 description: "Inspect binary files and libraries on Linux"
 category:
 tags: elf,binary
@@ -18,5 +18,5 @@ Inspect binary files and libraries (.so files and so on):
 - ldd <lib.so>
 ```
 
-- see man ld.so to see in which order things will be linked
-- compile time information can be added using the -r flags!
+- see `man ld.so` to check in which order things will be linked
+- compile time information can be added using the `-r` flags!
