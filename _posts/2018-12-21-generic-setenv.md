@@ -11,7 +11,7 @@ $ ./configure --prefix=$PREFIX
 $ make install
 ```
 To now execute the recently installed piece of software it would be cool to have a
-generic environment environment setup script:
+generic environment setup script:
 ```bash
 $ source generic-setenv.sh $PREFIX
 ```
