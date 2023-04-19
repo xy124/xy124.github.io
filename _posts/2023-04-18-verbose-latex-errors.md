@@ -1,6 +1,6 @@
 ---
 layout: short_post
-title: Verbose latex errors
+title: Verbose LaTeX errors
 description: "Activate verbose latex errors"
 category:
 tags: latex
@@ -8,7 +8,7 @@ refs:
   - https://tex.stackexchange.com/questions/324598/why-is-this-error-message-line-number-wrong
 ---
 
-Activate more verbose latex errors:
+Activate more verbose LaTeX errors:
 
 ```
    \errorcontextlines=200  %%%%% THIS IS THE IMPORTANT LINE
